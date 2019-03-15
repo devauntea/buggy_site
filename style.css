@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    height: 90%;
+}
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aquamarine;
+}
+
+#mainContainer {
+    text-align: center;
+    font-size: 25px;
+    height: 90%;
+    width: 95%;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: aqua;
+    color: aquamarine;
+}
+
+#responseContainer {
+    margin-left: 45%;
+    align-content: center;
+    border: 7px solid white;
+    height: 50px;
+    width: 5%;
+}
+
+#submitButton {
+    margin-top: 10px;
+    margin-left: 7.5%;
+    width: 70px;
+    height: 30px; 
+
+}
+
+.questions {
+    align-content: center;
+    margin-left: 65px;
+    border: 4px dashed orange;
+    font-size: 20px;
+    color: orange;
+    width: 90%;
+}
