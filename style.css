@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    background-image: url(conures.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 90%;
 }
 h1 {
@@ -9,7 +12,11 @@ h1 {
 }
 
 #mainContainer {
+    background-color: grey;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    background-blend-mode: color-dodge;
     text-align: center;
+    text-emphasis: bold;
     font-size: 25px;
     height: 90%;
     width: 95%;
@@ -17,28 +24,43 @@ h1 {
     border-style: solid;
     border-color: aqua;
     color: aquamarine;
+    opacity: 0.89;
+}
+
+#submitButton {
+    border:  4px solid cyan;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px; 
+    align-content: center;
+}
+#try-again{
+    border:  4px solid cyan;
+    display: none;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px; 
+}
+
+.questions {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    align-content: center;
+    margin-left: 65px;
+    border: 4px dashed darkblue;
+    font-size: 20px;
+    color: darkblue;
+    width: 90%;
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
 }
 
 #responseContainer {
     margin-left: 45%;
     align-content: center;
-    border: 7px solid white;
     height: 50px;
     width: 5%;
 }
 
-#submitButton {
-    margin-top: 10px;
-    margin-left: 7.5%;
-    width: 70px;
-    height: 30px; 
-}
-
-.questions {
-    align-content: center;
-    margin-left: 65px;
-    border: 4px dashed orange;
-    font-size: 20px;
-    color: orange;
-    width: 90%;
-}
